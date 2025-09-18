@@ -220,6 +220,38 @@ textarea {
     align-items: start;
 }
 
+.estadisticas {
+    background: linear-gradient(135deg, #ff6b6b, #ee5a24);
+    color: white;
+    padding: 1.5rem;
+    border-radius: 15px;
+    margin: 1.5rem 0;
+    box-shadow: 0 5px 15px rgba(255, 107, 107, 0.3);
+}
+
+.estadisticas h4 {
+    color: white;
+    margin-bottom: 1rem;
+    font-size: 1.2rem;
+}
+
+.estadisticas ul {
+    list-style: none;
+    margin-left: 0;
+}
+
+.estadisticas li {
+    margin-bottom: 0.8rem;
+    font-size: 1rem;
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+}
+
+.estadisticas li strong {
+    color: #fff;
+}
+
 .descripcion {
     font-size: 1.1rem;
     line-height: 1.8;
